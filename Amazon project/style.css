@@ -1,0 +1,341 @@
+
+
+
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar
+{
+    height: 55px;
+    background-color: #0f1111;
+    justify-content: space-evenly;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navlogo
+{
+    height: 49px;
+    width: 100px;
+}
+
+.logo
+{
+    background-image: url("Ama.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 49px;
+    width: 100%;
+    
+}
+
+.border
+{
+    border: 1.4px solid transparent;
+}
+
+.border:hover
+{
+    border: 2px solid white;
+}
+
+
+.para
+{
+    color: #cccccc;
+    font-size: 0.84rem ;
+    margin-left: 20px;
+    padding-bottom: 2px;
+}
+
+.pak
+{
+    font-size: 1rem ;
+    margin-left: 3px ;
+}
+
+.addressIcon
+{
+    display: flex;
+}
+
+
+.navSearch
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 4px;
+
+}
+
+.Searchselect
+{
+    background-color: #f3f3f3;
+    width: 49px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+
+}
+
+.SearchInput
+{background-color: white;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+
+.searchicon
+{
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(247, 179, 7);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #0f1111;
+}
+
+
+.hello
+{
+font-size: 0.7rem;
+
+}
+
+.list
+{
+    font-size: 0.84rem;
+    font-weight: 700;
+
+}
+
+.ret
+{
+    font-size: 0.7rem;
+
+}
+
+.order
+{
+    font-size: 0.84rem;
+    font-weight: 700;
+}
+
+.navSearch:hover
+{
+border: 2px solid rgb(247, 179, 7) ;
+}
+
+.cart i
+{
+    font-size: 30px;
+
+}
+.cart
+{
+    display: flex;
+}
+
+.car
+{
+    padding-top: 12px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+
+.panel
+{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+.poption p
+{
+    display: inline;
+    margin-left: 12px;
+    
+
+}
+.poption
+{
+    
+    width: 74%;
+    font-size: 0.84rem;
+    
+}
+
+.pdeals
+{
+    font: 0.9rem;
+    font-weight: 700;
+}
+
+.hero
+{
+    background-image: url("Hero.jpg");
+    background-size: cover;
+    height: 320px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.herM
+{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.84rem;
+    width: 90%;
+    margin-bottom: 24px;
+} 
+
+.herM a
+{
+    color: #007185;
+}
+
+.shop
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+}
+
+.box
+{
+    
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 14px;
+}
+
+
+.boximg
+{
+    background-image: url("Box1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;    
+  padding: 17px 4px 14px;
+
+}
+
+.boxcon
+{
+    margin-left:12px ;
+    margin-right:12px ;
+}
+.boxcon p
+{
+    display: flex;
+    color: #007185;
+    justify-content: center;
+    align-items: center;
+}
+
+footer
+{
+    margin-top: 17px;
+}
+
+.footp1
+{
+    background-color: #37475a;
+    color: white;
+    height: 49px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+
+.footp2
+{
+background-color: #222f3d;
+color: white;
+height: 299px;
+display: flex;
+justify-content: space-evenly;
+}
+ul
+{
+    margin-top: 24px;
+}
+
+ul a
+{
+    display: block;
+    font-size: 0.84rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.footp3
+{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.3px solid white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo
+{
+     background-image: url("Ama.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 100px;
+    
+}
+
+.footp4
+{
+    background-color: #0f1111;
+    color: white;
+    height: 70px;
+
+}
+
+.pages
+{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top:24px;
+}
+
+.copywrite
+{
+font-size: 0.7rem;
+ text-align: center;
+ padding-top:10px ;
+}
